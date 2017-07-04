@@ -1,0 +1,38 @@
+def plot_fsl_design(file_path):
+		"""Returns a plot of a Dataframe resulted from a csv file    
+			
+		Parameters
+		----------
+		file_path : str
+			The path and the filename to obtain the csv from.
+				
+		Returns
+		-------
+		axes : matplotlib.AxesSubplot or np.array of them	
+			
+		"""
+    
+    
+    
+    
+    def add_suffix(name, suffix):
+		"""A function that adds suffix to a variable. 
+		
+		Returns string type converted input variable 'name' and string type converted variable
+		'suffix' added at the end of 'name'. 
+		If variable 'name' is type list, all the elements are being converted to string and
+		they are being joined.
+		
+		Parameters
+		----------
+		name 
+			Will be converted to string and return with suffix		
+		suffix 
+			Will be converted to string and will be added at the end of 'name'.
+			
+		Returns
+		-------
+		str
+			String type variable 'name' with suffix the string variable 'suffix'
+		
+		"""
